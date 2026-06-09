@@ -14,6 +14,8 @@
 // limitations under the License.
 
 #import <UIKit/UIKit.h>
+#import "QGVAPConfigModel.h"
+#import "QGMP4AnimatedImageFrame.h"
 #import "UIView+VAP.h"
 #import "QGVAPWrapView.h"
 
@@ -24,4 +26,3 @@ FOUNDATION_EXPORT double QGVAPlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char QGVAPlayerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <QGVAPlayer/PublicHeader.h>
-

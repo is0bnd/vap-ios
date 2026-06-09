@@ -16,6 +16,8 @@
 #import <UIKit/UIKit.h>
 #import "VAPMacros.h"
 #import "QGVAPLogger.h"
+#import "QGVAPConfigModel.h"
+#import "QGMP4AnimatedImageFrame.h"
 
 // 退后台时的行为
 typedef NS_ENUM(NSUInteger, HWDMP4EBOperationType) {
@@ -24,7 +26,6 @@ typedef NS_ENUM(NSUInteger, HWDMP4EBOperationType) {
     HWDMP4EBOperationTypeDoNothing,         // VAP自身不进行控制，当外部进行控制时可以使用这个，仅用于防止覆盖外界的pause调用的问题
 };
 
-@class QGMP4AnimatedImageFrame,QGVAPConfigModel, QGVAPSourceInfo;
 /** 注意：回调方法会在子线程被执行。*/
 @protocol HWDMP4PlayDelegate <NSObject>
 
